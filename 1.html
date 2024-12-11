@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mañago Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background image container for the full viewport */
+        .background-container {
+            height: 200vh; /* Extend the page height for scrolling */
+            background-image: url('1.jpg'); /* Use the uploaded image */
+            background-size: cover; /* Cover the entire container */
+            background-repeat: no-repeat; /* Avoid repeating the image */
+            background-position: center; /* Center the image */
+            background-attachment: scroll; /* Image scrolls with the page */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Content box styling */
+        .content {
+            background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent overlay */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 100px auto;
+            text-align: center;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <div class="content">
+            <h1>Welcome</h1>
+            <p>This is a combined background image example.</p>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Keep Scrolling</h1>
+        <p>Notice the image scrolls with the page.</p>
+    </div>
+</body>
+</html>
